@@ -3,8 +3,8 @@ name: Hello World
 on: [push]
 
 jobs:
-  say-hello:
+  myjob1:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo Hello World
+      - name: step-one
         run: echo "Hello, world!"
